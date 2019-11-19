@@ -31,14 +31,18 @@ img {
 
 #logo {
     clear: both;
-    margin: auto;
-    width: 600px;
+    display: flex;
+    justify-content: center;
+    /* margin: auto;
+    width: 500px; */
     padding-top: 150px;
 }
 
 #form {
-    margin: auto;
-    width: 600px;
+    /* margin: auto;
+    width: 500px; */
+    display: flex;
+    justify-content: center;
 }
 
 input {
@@ -54,16 +58,25 @@ a:link, a:visited {
     color: black;
 }
 
-.container {
 
-    width: 500px;
-    margin: auto;
+#contanier1, #contanier2 {
+    display: flex;
+    justify-content: center;
+
 }
-
 .icons {
     width: 30px;
     height: 30px;
-    padding-right: 65px;
+    padding-right: 60px;
     padding-bottom: 50px;
     padding-top: 20px;
+    margin: 0;
+    padding-left: 0;
+}
+
+.icons1 {
+    width: 30px;
+    height: 30px;
+    padding-top: 20px;
+
 }
