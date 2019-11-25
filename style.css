@@ -60,6 +60,7 @@ a:link, a:visited {
 
 
 #contanier1, #contanier2 {
+    padding-top: 15px;
     display: flex;
     justify-content: center;
 
@@ -67,7 +68,7 @@ a:link, a:visited {
 .icons {
     width: 30px;
     height: 30px;
-    padding-right: 60px;
+    padding-right: 55px;
     padding-bottom: 50px;
     padding-top: 20px;
     margin: 0;
