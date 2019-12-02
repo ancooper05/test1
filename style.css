@@ -43,6 +43,7 @@ img {
     width: 500px; */
     display: flex;
     justify-content: center;
+    border: none;
 }
 
 input {
@@ -80,4 +81,9 @@ a:link, a:visited {
     height: 30px;
     padding-top: 20px;
 
+}
+
+input:focus  {
+    
+    background-color:  #cfe4e1;
 }

@@ -1,0 +1,25 @@
+.tip:before 
+{content: "ПОДСКАЗКА!" }
+
+p::selection {
+    color: #FFFFFF;
+    background-color: #993366;
+    }
+p:last-of-type {
+    color: crimson;
+}
+
+ul.mainList > li {
+    color: green;
+}
+
+ul.mainList > li > ul > li {
+    color: blue;
+}
+
+#signupForm {
+    display: none;
+    }
+    #signupForm:target {
+        display: block;
+        }
