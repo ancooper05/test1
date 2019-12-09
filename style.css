@@ -84,6 +84,6 @@ a:link, a:visited {
 }
 
 input:focus  {
-    
+    border-bottom: none;
     background-color:  #cfe4e1;
 }
