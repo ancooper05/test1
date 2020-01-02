@@ -36,6 +36,7 @@ table {
 	width: 70%;
 }
 .sidebar {
+	font-variant: small-caps;
 	margin-left: 75%;
 	padding: 15px;
 	background: #E9F5FE;
@@ -52,6 +53,7 @@ h1 {
 	font-size: 3em;
 	font-family: "Arial Black", Arial, sans-serif;
 	margin-bottom: 15px;
+	text-decoration: blink;
 	}
 
 h2 {
